@@ -5,7 +5,7 @@ import math
 
 # HOW IT WORKS:
     # Each pixel's RGB color value represents a point in 3D space
-    # Central points are chosen at random with a weighted probability to
+    # Central points are chosen at random using a weighted probability
     # Points are then clustered based on their closest central points
     # "k" number of clusters are created
     # Dominant colors - Each cluster is then averaged to one rgb value
