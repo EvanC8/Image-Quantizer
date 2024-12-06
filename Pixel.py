@@ -1,8 +1,5 @@
 import math
 
-from scipy.cluster.hierarchy import weighted
-
-
 class Pixel:
     def __init__(self, row, col, rgb, center, weight, weight_sum):
         self.row = row
